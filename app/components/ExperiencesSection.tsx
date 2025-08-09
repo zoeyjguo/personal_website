@@ -127,7 +127,7 @@ export default function ProjectsSection() {
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: experience.id * 0.1 }}
 						whileHover={{ scale: 1.02 }}
-						className="bg-gradient-to-br from-purple-900/50 to-blue-900/100 rounded-xl p-6 w-[950px] mx-auto shadow-lg"
+						className="bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl p-6 w-[950px] mx-auto shadow-lg"
 					>
 						<h3 className="text-xl font-bold mb-2">{experience.company}</h3>
 							{experience.positions.map((position, index) => (
