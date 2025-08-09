@@ -9,7 +9,7 @@ const experiences = [
 		positions: [
 			{
 				title: 'Single Use Manufacturing Intern',
-				duration: 'May 2025 - Present',
+				duration: 'May 2025 - Aug 2025',
 				description: [
 					'Developed a chatbot to assist users in troubleshooting common issues encountered while using the IOPS Manufacturing Execution System (MES).',
 					'Leveraged a Retrieval-Augmented Generation (RAG) model to reference MES-verified documentation when formulating responses, ensuring accurate and reliable answers.',
