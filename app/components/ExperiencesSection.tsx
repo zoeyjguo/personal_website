@@ -107,7 +107,7 @@ const experiences = [
 
 export default function ProjectsSection() {
 	return (
-		<section className="py-12 md:py-20 px-4 max-w-7xl mx-auto">
+		<section className="w-full py-12 md:py-20 px-4 max-w-7xl mx-auto">
 			<motion.h2
 				initial={{ opacity: 0, y: 20 }}
 				whileInView={{ opacity: 1, y: 0 }}
@@ -118,7 +118,7 @@ export default function ProjectsSection() {
 				Experience
 			</motion.h2>
 
-			<div className="grid grid-cols-1 gap-10">
+			<div className="grid grid-cols-1 gap-6">
 				{experiences.map((experience) => (
 					<motion.div
 						key={experience.id}
@@ -127,12 +127,12 @@ export default function ProjectsSection() {
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: experience.id * 0.1 }}
 						whileHover={{ scale: 1.02 }}
-						className="bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl p-6 w-[950px] mx-auto shadow-lg"
+						className="group relative bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow"
 					>
-						<h3 className="text-xl font-bold mb-2">{experience.company}</h3>
+						<h3 className="text-lg md:text-xl font-bold mb-2">{experience.company}</h3>
 							{experience.positions.map((position, index) => (
-								<div  style={{ padding: '12px 0' }} key={index}>
-									<h4 className="font-semibold">{position.title}</h4>
+								<div style={{ padding: '12px 0' }} key={index}>
+									<h4 className="text-md md:text-lg font-semibold">{position.title}</h4>
 									<p className="text-sm" style={{ padding: '4px 0' }}>{position.duration}</p>
 									<ul className="text-md list-disc list-inside space-y-1">
 										{position.description.map((point, index) => (
