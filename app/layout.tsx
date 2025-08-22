@@ -14,12 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: 'Zoey Guo',
-	description:
-		'Welcome to my portfolio! I am a passionate software developer with a focus on clean, minimal, and effective solutions. I believe in the power of simplicity and thoughtful design to create impactful digital experiences.',
+	description: 'Hi, welcome to my portfolio! I am a Software Engineer with strong academic credentials and internship experience in developing scalable, production-grade applications. \nI am proficient in Python, Java, and C# through projects such as chatbot development and console applications. \nI am experienced in writing clean, well-documented code and troubleshooting complex systems while collaborating with cross-functional teams to drive innovative solutions.',
 	keywords: [
-		'Software Developer',
+		'Software Engineer',
 		'Clean Code',
-		'Minimal Design',
 		'Modern Development',
 		'Web Development',
 		'User Experience',
@@ -30,33 +28,16 @@ export const metadata: Metadata = {
 		'Next.js',
 		'Performance',
 		'Accessibility',
-		'Minimalist Portfolio',
 		'Zoey Guo',
 	],
 	authors: [{ name: 'Zoey Guo' }],
 	creator: 'Zoey Guo',
 	openGraph: {
-		title: 'Zoey Guo - Software Developer Portfolio',
-		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
-		url: 'https://your-domain.com',
+		title: 'Zoey Guo - Portfolio',
+		description: 'Software Engineer with strong academic credentials and internship experience in developing scalable, production-grade applications. \nDemonstrated proficiency in Python, Java, and C# through projects such as chatbot development and console applications. \nAdept at writing clean, well-documented code and troubleshooting complex systems while collaborating with cross-functional teams to drive innovative solutions.',
 		siteName: 'Zoey Guo - Portfolio',
-		images: [
-			{
-				url: '/og-image.jpg',
-				width: 1200,
-				height: 630,
-				alt: 'Zoey Guo - Modern Minimal Portfolio',
-			},
-		],
 		locale: 'en_US',
 		type: 'website',
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'Zoey Guo - Software Developer',
-		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
-		creator: '@yourusername',
-		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,
